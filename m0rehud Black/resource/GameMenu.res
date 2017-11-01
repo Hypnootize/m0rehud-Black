@@ -1,33 +1,5 @@
 "GameMenu"
 {
-	"QuickplayButton"
-	{
-		"label" "Casual" 
-		"command" "play_casual"
-		"subimage" ""
-		"OnlyAtMenu" "1"
-	}
-	"QuickplayChangeButton"
-	{
-		"label" "Casual"
-		"command" "play_casual"
-		"subimage" ""
-		"OnlyInGame" "1"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "play_competitive"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "0"
-	}
-	"PlayPVEButton"
-	{
-		"label" "MvM" 
-		"command" "play_mvm"
-		"subimage" ""
-		"OnlyAtMenu" "1"
-	}
 	"ServerBrowserButton"
 	{
 		"label" "Servers" 
@@ -77,7 +49,6 @@
 	{
 		"label" "+"
 		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
 		"tooltip" "#GameUI_GameMenu_CreateServer"
 	}
 	"GeneralStoreButton"
@@ -85,6 +56,7 @@
 		"label"			"Shop"
 		"command"		"engine open_store"
 		"subimage"		"glyph_store"
+		"OnlyAtMenu"	"1"
 	}
 	"CharacterSetupButton"
 	{

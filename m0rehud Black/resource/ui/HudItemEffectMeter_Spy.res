@@ -70,7 +70,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor_override"	"ProgressOffWhite"
+		"fgcolor_override"	"m0rewhite"
 	}					
 	
 	"ItemEffectMeterCount"
@@ -90,7 +90,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"surface28"
+		"font"					"m0refont28"
 		"fgcolor" "m0rewhite"
 	}
 	"ItemEffectMeterCount2"
@@ -110,7 +110,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"surface28"
+		"font"					"m0refont28"
 		"fgcolor" "0 0 0 255"
 	}
 }

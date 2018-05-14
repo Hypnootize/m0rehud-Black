@@ -27,6 +27,12 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 		
+		if_match
+		{
+			"xpos"				"13"
+			"ypos"				"-59"
+		}
+		
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
@@ -45,28 +51,28 @@
 			
 			if_match
 			{
-				"font"			"m0refont12"
+				"font"		"m0refont12"
 			}
 		}	
 	}
 	"BluTimerBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"BluTimerBG"
 		"xpos"			"19"
 		"ypos"			"5"
 		"zpos"			"-1"
 		"wide"			"40"
 		"tall"			"20"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_blu"
 
-		"src_corner_height"	"23"
-		"src_corner_width"	"23"
-		"draw_corner_width"	"5"
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"5"
 		"draw_corner_height" 	"5"	
 		
 		if_match
@@ -76,7 +82,7 @@
 	}
 	"RedTimer"
 	{
-		"ControlName"		"CTFHudTimeStatus"
+		"ControlName"	"CTFHudTimeStatus"
 		"fieldName"		"RedTimer"
 		"xpos"			"51"
 		"ypos"			"-60"
@@ -93,51 +99,57 @@
 		"delta_lifetime"	"1.5"
 		"delta_item_font"	"HudFontMedium"
 		
+		if_match
+		{
+			"xpos"				"50"
+			"ypos"				"-59"
+		}
+		
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"	"TimePanelValue"
-			"font"		"m0refont16"
-			"fgcolor"	"255 255 255 255"
-			"xpos"		"10"
-			"ypos"		"64"
-			"zpos"		"3"
-			"wide"		"40"
-			"tall"		"20"
-			"visible"	"1"
-			"enabled"	"1"
+			"fieldName"		"TimePanelValue"
+			"font"			"m0refont16"
+			"fgcolor"		"255 255 255 255"
+			"xpos"			"10"
+			"ypos"			"64"
+			"zpos"			"3"
+			"wide"			"40"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
 			"textAlignment"	"center"
-			"labelText"	"0:00"
+			"labelText"		"0:00"
 			
 			if_match
 			{
-				"font"			"m0refont12"
+				"font"		"m0refont12"
 			}
 		}	
 	}
 	"RedTimerBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"RedTimerBG"
 		"xpos"			"61"
 		"ypos"			"5"
 		"zpos"			"-1"
 		"wide"			"40"
 		"tall"			"20"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_red"
 
-		"src_corner_height"	"23"
-		"src_corner_width"	"23"
-		"draw_corner_width"	"5"
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"5"
 		"draw_corner_height" 	"5"	
 		
 		if_match
 		{
-			"visible" "0"
+			"visible" 			"0"
 		}
 	}
 	

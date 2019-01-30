@@ -5,12 +5,19 @@
 		"fieldName"				"HudItemEffectMeter"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-50"
-		"ypos"					"c120"	
+		"xpos"					"c-75"
+		"ypos"					"c155"	
 		"wide"					"500"
 		"tall"					"500"
 		"MeterFG"				"White"
 		"MeterBG"				"Gray"
+	}
+	
+	"ItemEffectMeterBG"
+	{
+		"ControlName"			"CTFImagePanel"
+		"fieldName"				"ItemEffectMeterBG"
+		"xpos"					"9999"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -18,20 +25,21 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"0"
-		"ypos"					"19"
+		"ypos"					"2"
 		"zpos"					"2"
-		"wide"					"100"
+		"wide"					"150"
 		"tall"					"8"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_KART"
+		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
+		"fgcolor_override"		"150 150 150 255"
 	}
 
 	"ItemEffectMeter"
@@ -40,9 +48,9 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"17"
+		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"100"
+		"wide"					"150"
 		"tall"					"2"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -53,34 +61,24 @@
 		"brighttext"			"0"
 	}
 	
-	
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"2"
 		"zpos"					"2"
-		"wide"					"100"
-		"tall"					"20"	
+		"wide"					"150"
+		"tall"					"8"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"Center"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontSmallBold"
-	}
-	
-	"ItemEffectMeterBG"
-	{
-		"ControlName"			"CTFImagePanel"
-		"fieldName"				"ItemEffectMeterBG"
-		"wide"					"0"
-		"tall"					"0"
-		"visible"				"0"
-		"enabled"				"0"
+		"font"					"TFFontSmall"
+		"fgcolor_override"		"150 150 150 255"
 	}
 }

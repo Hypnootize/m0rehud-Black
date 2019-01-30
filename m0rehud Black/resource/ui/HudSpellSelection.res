@@ -16,7 +16,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpellIcon"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"2"
 		"zpos"			"13"
 		"wide"			"20"
 		"tall"			"20"
@@ -46,7 +46,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountText"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"Surface28"
 		"labelText"		"%counttext%"
 		"textAlignment" "west"
 		"xpos"			"27"
@@ -55,6 +55,20 @@
 		"wide"			"80"
 		"tall"			"24"
 		"fgcolor"		"255 255 255 255"
+	}
+	"CountTextShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CountText"
+		"font"			"Surface28"
+		"labelText"		"%counttext%"
+		"textAlignment" "west"
+		"xpos"			"28"
+		"ypos"			"1"
+		"zpos"			"2"
+		"wide"			"80"
+		"tall"			"24"
+		"fgcolor"		"0 0 0 255"
 	}
 	
 	"ItemEffectMeterBG"

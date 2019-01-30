@@ -253,8 +253,8 @@
 			"fonts"
 			{
 				"0"		"m0refont16"
-				"1"		"m0refont16"
-				"2"		"m0refont16"
+				"1"		"m0refont12"
+				"2"		"m0refont10"
 			}
 		}
 
@@ -286,8 +286,8 @@
 			"fonts"
 			{
 				"0"		"m0refont16"
-				"1"		"m0refont16"
-				"2"		"m0refont16"
+				"1"		"m0refont12"
+				"2"		"m0refont10"
 			}
 
 			"colors"
@@ -388,7 +388,7 @@
 						"fieldName"		"ProgressBar"
 						"xpos"			"0"
 						"ypos"			"cs-0.5"
-						"wide"			"f0"
+						"wide"			"0"
 						"tall"			"f-2"
 						"zpos"			"1"
 						"proportionaltoparent"	"1"
@@ -396,6 +396,11 @@
 
 						"fgcolor_override"	"20 20 20 180"
 						"bgcolor_override"	"0 0 0 0"
+						
+						if_mini
+						{
+							"wide"			"f0"
+						}
 					}
 
 					"ContinuousProgressBar"
@@ -409,7 +414,12 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"CreditsGreen"
+						"fgcolor_override"	"34 164 135 255"
+						
+						if_mini
+						{
+							"fgcolor_override"	"CreditsGreen"
+						}
 					}
 
 					"Frame"
@@ -418,11 +428,16 @@
 						"fieldName"		"Frame"
 						"xpos"			"0"
 						"ypos"			"0"
-						"wide"			"f0"
+						"wide"			"0"
 						"tall"			"f0"
 						"zpos"			"5"
 						"proportionaltoparent"	"1"
 						"border"		"InnerShadowBorderThin"
+						
+						if_mini
+						{
+							"wide"		"f0"
+						}
 					}
 				}
 			}

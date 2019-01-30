@@ -282,7 +282,7 @@
 		
 		if_match
 		{
-			"ypos"			"2"
+			"ypos"			"3"
 			"zpos"			"5"
 		}
 		
@@ -336,8 +336,8 @@
 			"tall"				"50"
 			"zpos"				"1"
 		
-			"color_portrait_bg_red"				"119 62 61 255"
-			"color_portrait_bg_blue"			"62 81 101 255"
+			"color_portrait_bg_red"				"189 59 61 255"
+			"color_portrait_bg_blue"			"90 122 143 255"
 			"color_portrait_bg_red_dead"		"79 54 52 255"
 			"color_portrait_bg_blue_dead"		"44 49 51 255"
 			"color_bar_health_high"				"84 191 58 255"

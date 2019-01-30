@@ -49,7 +49,7 @@
 			"font"			"m0refont24"	//HudFontMedium
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"m0reBlue"
+			"fgcolor"		"m0reblu"
 		}	
 		"countshadow"
 		{

@@ -88,7 +88,7 @@
 	{	
 		"ControlName"		    "Label"
 		"fieldName"		      "TargetDataLabel"
-		"font"			        "m0refontUber"
+		"font"			        "m0refont10"
 		"fgcolor_override"  "255 255 255 255"
 		"xpos"			        "40"
 		"ypos"			        "-2"

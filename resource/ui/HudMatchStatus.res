@@ -197,13 +197,10 @@
 	"RoundCounter"
 	{
 		"fieldName"				"RoundCounter"
-		"xpos"					"cs-0.5"
-		"ypos"					"-2"
-		"zpos"					"1"
-		"wide"					"300"
-		"tall"					"100"
-		"visible"				"1"
-		"enabled"				"1"
+		"wide"					"0"
+		"tall"					"0"
+		"visible"				"0"
+		"enabled"				"0"
 	}	
 	
 	"BGFrame"
@@ -279,12 +276,6 @@
 		"NegativeColor"		"255 0 0 255"
 		"delta_lifetime"	"1.3"
 		"delta_item_font"	"m0refont16"
-		
-		if_match
-		{
-			"ypos"			"3"
-			"zpos"			"5"
-		}
 		
 		"TimePanelValue"
 		{

@@ -1,13 +1,5 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {	
-	"HudKothTimeStatus"
-	{
-		if_match
-		{
-			"zpos"		"5"
-		}
-	}
-	
 	"BlueTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
@@ -27,12 +19,6 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 		
-		if_match
-		{
-			"xpos"				"13"
-			"ypos"				"-57"
-		}
-		
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
@@ -48,11 +34,6 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"0:00"
-			
-			if_match
-			{
-				"font"		"m0refont12"
-			}
 		}	
 	}
 	"BluTimerBG"
@@ -73,12 +54,7 @@
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
-		
-		if_match
-		{
-			"visible" "0"
-		}
+		"draw_corner_height" 	"5"
 	}
 	"RedTimer"
 	{
@@ -99,12 +75,6 @@
 		"delta_lifetime"	"1.5"
 		"delta_item_font"	"HudFontMedium"
 		
-		if_match
-		{
-			"xpos"				"50"
-			"ypos"				"-57"
-		}
-		
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
@@ -120,11 +90,6 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"0:00"
-			
-			if_match
-			{
-				"font"		"m0refont12"
-			}
 		}	
 	}
 	"RedTimerBG"
@@ -146,11 +111,6 @@
 		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
 		"draw_corner_height" 	"5"	
-		
-		if_match
-		{
-			"visible" 			"0"
-		}
 	}
 	
 	"ActiveTimerBG"

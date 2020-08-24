@@ -30,11 +30,6 @@
 			
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"	
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
 	}
 	"TimePanelProgressBar"
 	{
@@ -60,11 +55,6 @@
 		"wrap"			"0"
 		"font"			"m0refont10"
 		"fgcolor"		"255 255 255 255"
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -90,11 +80,6 @@
 		"wrap"			"0"
 		"font"			"default"
 		"fgcolor"		"255 255 255 255"
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
 	}			
 	"OvertimeBG"
 	{
@@ -120,11 +105,6 @@
 		"wrap"			"0"
 		"font"			"default"
 		"fgcolor"		"255 255 255 255"
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
 	}			
 	"SuddenDeathBG"
 	{
@@ -179,11 +159,6 @@
 		"wrap"			"0"
 		"font"			"default"
 		"fgcolor"		"255 255 255 255"
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
 	}	
 	"SetupBG"
 	{

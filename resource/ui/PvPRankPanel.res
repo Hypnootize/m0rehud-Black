@@ -210,7 +210,7 @@
 			"ypos"			"0"
 			"wide"			"110"
 			"zpos"			"100"
-			"tall"			"20"
+			"tall"			"0"		//20
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"m0refont16"
@@ -230,7 +230,7 @@
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
 			"xpos"			"65"
-			"ypos"			"17"
+			"ypos"			"0"
 			"wide"			"110"
 			"zpos"			"100"
 			"tall"			"20"
@@ -263,7 +263,7 @@
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
 			"xpos"			"65"
-			"ypos"			"33"
+			"ypos"			"17"
 			"wide"			"110"
 			"zpos"			"100"
 			"tall"			"20"
@@ -323,8 +323,6 @@
 				"wide"			"p1"
 				"tall"			"30"
 				"proportionaltoparent"	"1"
-
-	
 
 				"CurrentXPLabel"
 				{

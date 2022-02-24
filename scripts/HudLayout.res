@@ -443,7 +443,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "12"	[$WIN32]
+		"ypos"	 "20"	[$WIN32]
 		"wide"	 "628"
 		"tall"	 "468"
 

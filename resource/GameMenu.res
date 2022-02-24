@@ -8,7 +8,7 @@
 	}
 	"CreateServerButton"
 	{
-		"label" 		"+"
+		"label" 		"Create Server"
 		"command" 		"OpenCreateMultiplayerGameDialog"
 		"subimage" 		""
 	}
